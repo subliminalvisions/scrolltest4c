@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>scroll testing effects</title>
+
+	<link rel="stylesheet" type="text/css" href="./test/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./test/css/demo.css">
+	<link rel="stylesheet" type="text/css" href="./dist/css/parallax-vanilla.css">
+	<link rel="shortcut icon" type="image/png" href="./test/media/favicon.png" />
+	<style>
+		.filler {
+			height: 50vh;
+		}
+		.stripev1 {
+		background-image: linear-gradient(27deg, #0f0f0f 25%, #4d4d4d 25%, #4d4d4d 50%, #0f0f0f 50%, #0f0f0f 75%, #4d4d4d 75%, #4d4d4d 100%);
+background-size: 88.11px 44.89px;
+		}
+		.slopev2, 
+		.sloperight {
+			width:106%;
+			  transform:rotate(3deg);
+			  margin-top:-44px;
+			  margin-left:-2%;
+		}
+		.slopeleft {
+			width:106%;
+			  transform:rotate(-3deg);
+			  margin-top:-44px;
+			  margin-right:3%;
+			  z-index:999;
+			  padding-top:66px;
+		}	
+		.pv-block {
+			  padding-top:66px;
+			  padding-bottom:66px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="pv-container slopeleft" pv-height=50vh>
+		<div class="pv-block" pv-speed=-1.0 pv-mediapath=img/triangles_bg2b.jpg></div>
+		<div class="text-wrapper stripev1 ">
+			<div class="pv-block" pv-speed=3.14 pv-mediatype=none>
+				
+				<img src="img/logo-1b.png" />
+				
+				<h1>Scrolling effects testing </h1>
+				<h3>A few kilobytes of JavaScript.</h3>
+				<br/>
+				<br/>
+			</div>
+		</div>
+	</div>
+
+	<div class="pv-container slopev2" pv-height=60vh>
+		<div class="pv-block" pv-speed=1.0 pv-mediapath=img/triangles_bg2b.jpg></div>
+		<div class="text-wrapper">
+			<div class="pv-block" pv-speed=-3.14 pv-mediatype=none>
+				<h1>Dynamically sizing</h1>
+				<h3>Image-elements can be dynamically adjusted relative to speed </h3>
+				<br/>
+				<br/>
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="filler">
+		<div>
+			<h1>Performance is key</h1>
+			<h3>Maximize your parallax effects with hardware acceleration and
+				<i>zero</i> external libraries.</h3>
+		</div>
+	</div>
+
+	<div class="pv-container container-fluid" pv-height=40vh>
+		<div class="row">
+			<div class="col-xs-1 pv-block" pv-speed=-1.0 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=-1.1 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=-1.2 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=-1.3 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=-1.4 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=-1.5 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=-1.6 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=-1.7 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=-1.8 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=-1.9 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=-2.0 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=-2.1 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+		</div>
+	</div>
+
+	<div class="container-fluid pv-container" pv-height=10vh>
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="col-xs-1 pv-block" pv-speed=1.0 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=1.1 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=1.2 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=1.3 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=1.4 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=1.5 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=1.6 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=1.7 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=1.8 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=1.9 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=2.0 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=2.1 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			</div>
+			<div class="col-xs-6">
+				<div class="col-xs-1 pv-block" pv-speed=2.2 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=2.3 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=2.4 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=2.5 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=2.6 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=2.7 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=2.8 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=2.9 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=3.0 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=3.1 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=3.2 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=3.3 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="pv-container container-fluid" pv-height=10vh>
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="col-xs-1 pv-block" pv-speed=-1.0 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-1.1 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-1.2 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-1.3 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-1.4 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-1.5 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-1.6 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-1.7 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-1.8 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-1.9 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-2.0 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-2.1 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			</div>
+			<div class="col-xs-6">
+				<div class="col-xs-1 pv-block" pv-speed=-2.2 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-2.3 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-2.4 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-2.5 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-2.6 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-2.7 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-2.8 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-2.9 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-3.0 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-3.1 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-3.2 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+				<div class="col-xs-1 pv-block" pv-speed=-3.3 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="pv-container container-fluid" pv-height=40vh>
+		<div class="row">
+			<div class="col-xs-1 pv-block" pv-speed=1.0 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=1.1 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=1.2 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=1.3 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=1.4 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=1.5 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=1.6 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=1.7 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=1.8 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=1.9 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=2.0 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+			<div class="col-xs-1 pv-block" pv-speed=2.1 pv-mediapath=http://subliminalvisions.com/img/asteel-fractal-test115.jpg></div>
+		</div>
+	</div>
+
+	<div class="filler">
+		<div>
+			<h1>Viewport-only animations</h1>
+			<h3>Parallax elements are only animated within the current viewport, saving enormous resources.</h3>
+		</div>
+	</div>
+
+	<div class="pv-container" pv-height=100vh>
+		<div class="pv-block" pv-speed=3.14 pv-mediapath=test/media/reflection.jpg></div>
+	</div>
+
+	<script type="text/javascript" src="./dist/js/parallax-vanilla.js"></script>
+	<!-- <script type="text/javascript">//# sourceMappingURL=./dist/js/parallax-vanilla.js.map</script> -->
+
+	<script type="text/javascript">
+		const demoSettings = {
+			container: {
+				class: 'pv-container',
+				height: '251px',
+			},
+			block: {
+				class: 'pv-block',
+				speed: -1,
+				mediatype: 'image',
+				mediapath: 'http://subliminalvisions.com/img/asteel-fractal-test115.jpg',
+			},
+		}
+		pv.init(demoSettings)
+	</script>
+
+</body>
+
+</html>
