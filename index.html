@@ -42,12 +42,22 @@ background-size: 88.11px 44.89px;
 			  padding-top:66px;
 			  padding-bottom:66px;
 		}
+
+div.clippath1 {
+-webkit-clip-path: polygon(50% 12%, 100% 0, 99% 89%, 50% 100%, 0 87%, 0% 0%);
+clip-path: polygon(50% 12%, 100% 0, 99% 89%, 50% 100%, 0 87%, 0% 0%);
+}
+		
+		
 	</style>
 </head>
 
 <body>
 
 	<div class="pv-container slopeleft" pv-height=50vh>
+<div class="clippath1">
+<div class="clippath2">
+
 		<div class="pv-block" pv-speed=-1.0 pv-mediapath=img/triangles_bg2b.jpg></div>
 		<div class="text-wrapper stripev1 ">
 			<div class="pv-block" pv-speed=3.14 pv-mediatype=none>
@@ -60,9 +70,14 @@ background-size: 88.11px 44.89px;
 				<br/>
 			</div>
 		</div>
+
+</div>
+</div>
+<!-- experimenting with custom rotated skew shapes -->
+
 	</div>
 
-	<div class="pv-container slopev2" pv-height=60vh>
+	<div class="pv-container sloperight" pv-height=60vh>
 		<div class="pv-block" pv-speed=1.0 pv-mediapath=img/triangles_bg2b.jpg></div>
 		<div class="text-wrapper">
 			<div class="pv-block" pv-speed=-3.14 pv-mediatype=none>
